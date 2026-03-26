@@ -1,13 +1,9 @@
 #!/bin/bash
 # Script 1: System Identity Report
-# Author: Krishna Kumar Sahu | Reg: 24MIM10150
 # Course: Open Source Software (OSS NGMC)
 # Purpose: Display a formatted system identity welcome screen
 
-# ─── Variables ───────────────────────────────────────────────
-STUDENT_NAME="Krishna Kumar Sahu"
-REG_NUMBER="24MIM10150"
-SOFTWARE_CHOICE="MySQL"
+
 
 # Capture system info using command substitution $()
 KERNEL=$(uname -r)
